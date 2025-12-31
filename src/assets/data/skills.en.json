@@ -1,0 +1,58 @@
+[
+  {
+    "skill": "C, OpenMP, Java, Spring Framework, C#, .NET",
+    "grade": "Proficient"
+  },
+  {
+    "skill": "Angular 2+, JSF, PrimeFaces, Angular Material",
+    "grade": "Proficient"
+  },
+  {
+    "skill": "Gradle, Maven",
+    "grade": "Basic"
+  },
+  {
+    "skill": "ER-Modell, OR-Mapping, SQL",
+    "grade": "Advanced"
+  },
+  {
+    "skill": "Testing (Unit Tests, Selenium)",
+    "grade": "Advanced"
+  },
+  {
+    "skill": "UML",
+    "grade": "Basic"
+  },
+  {
+    "skill": "LaTeX",
+    "grade": "Advanced"
+  },
+  {
+    "skill": "GIT",
+    "grade": "Basic"
+  },
+  {
+    "skill": "IntelliJ, WebStorm, Eclipse",
+    "grade": "Advanced"
+  },
+  {
+    "skill": "Microsoft Office",
+    "grade": "Advanced"
+  },
+  {
+    "skill": "Networking",
+    "grade": "Advanced"
+  },
+  {
+    "skill": "Hardware developing",
+    "grade": "Basic"
+  },
+  {
+    "skill": "German",
+    "grade": "Nativ"
+  },
+  {
+    "skill": "English",
+    "grade": "B2 level"
+  }
+]

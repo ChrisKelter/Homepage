@@ -1,0 +1,38 @@
+[
+  {
+    "description": "Radfahren",
+    "icon": "directions_bike"
+  },
+  {
+    "description": "Wandern & Klettern",
+    "icon": "terrain"
+  },
+  {
+    "description": "Laufen",
+    "icon": "directions_run"
+  },
+  {
+    "description": "Yoga",
+    "icon": "self_improvement"
+  },
+  {
+    "description": "Schwimmen",
+    "icon": "pool"
+  },
+  {
+    "description": "Grillen",
+    "icon": "outdoor_grill"
+  },
+  {
+    "description": "Wein & Co.",
+    "icon": "wine_bar"
+  },
+  {
+    "description": "Kochen",
+    "icon": "local_dining"
+  },
+  {
+    "description": "Kino",
+    "icon": "local_movies"
+  }
+]

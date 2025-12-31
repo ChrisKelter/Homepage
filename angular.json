@@ -4,6 +4,12 @@
   "newProjectRoot": "projects",
   "projects": {
     "Homepage": {
+      "i18n": {
+        "sourceLocale": "de",
+        "locales": {
+          "en": "src/locale/messages.en.xlf"
+        }
+      },
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -11,6 +17,7 @@
       "prefix": "app",
       "architect": {
         "build": {
+          "localize": true,
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/Homepage",
@@ -24,6 +31,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/hp-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -56,10 +64,41 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "production-en": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "outputPath": "dist/",
+              "i18nFile": "src/locale/messages.en.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error"
+            },
+            "en": {
+              "aot": true,
+              "outputPath": "dist/",
+              "i18nFile": "src/locale/messages.en.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error"
             }
           }
         },
         "serve": {
+          "localize": true,
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "browserTarget": "Homepage:build"
@@ -67,6 +106,9 @@
           "configurations": {
             "production": {
               "browserTarget": "Homepage:build:production"
+            },
+            "en":{
+              "browserTarget": "Homepage:build:en"
             }
           }
         },
@@ -88,6 +130,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +162,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Homepage"
 }

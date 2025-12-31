@@ -1,0 +1,38 @@
+[
+  {
+    "description": "Cycling",
+    "icon": "directions_bike"
+  },
+  {
+    "description": "Hiking & Climbing",
+    "icon": "terrain"
+  },
+  {
+    "description": "Running",
+    "icon": "directions_run"
+  },
+  {
+    "description": "Yoga",
+    "icon": "self_improvement"
+  },
+  {
+    "description": "Swimming",
+    "icon": "pool"
+  },
+  {
+    "description": "BBQ",
+    "icon": "outdoor_grill"
+  },
+  {
+    "description": "Wine & Co.",
+    "icon": "wine_bar"
+  },
+  {
+    "description": "Cooking",
+    "icon": "local_dining"
+  },
+  {
+    "description": "Cinema",
+    "icon": "local_movies"
+  }
+]
