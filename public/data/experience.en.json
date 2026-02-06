@@ -1,0 +1,32 @@
+[
+  {
+    "timeTitle": "10/2022-03/2026",
+    "timeSubtitle": "Lector",
+    "contentTitle": "University of Innsbruck",
+    "contentText": "Several years of experience in teaching courses in various disciplines with a focus on database systems, object-oriented programming, and software engineering. Teaching practical content such Java, SQL, UML modeling and the basics of project management in software development. The focus was on combining theoretical concepts with practical application and promoting analytical and structured thinking."
+  },
+  {
+    "timeTitle": "11/2021-05/2025",
+    "timeSubtitle": "Student Assistant",
+    "contentTitle": "University of Innsbruck",
+    "contentText": "Collaboration on the INNALP Education Hub research project with responsibility for developing a web-based learning environment for the practical teaching of robotics and artificial intelligence. Implementation of a fully functional web app in which AI models could be trained and applied in custom code. Use of WebAssembly and Bluetooth to create an installation-free, interactive development environment for students. Conducting workshops with students using the developed learning application, as well as scientific analysis and presentation of the results in academic publications and conferences."
+  },
+  {
+    "timeTitle": "09/2017-10/2021",
+    "timeSubtitle": "Salesperson and Deputy Store Manager",
+    "contentTitle": "Der Bäcker Ruetz",
+    "contentText": "Part-time position as sales assistant and team leader at the Mühlau/Arzl branch (Innsbruck) with responsibility for the weekend team, including duty schedule planning, purchasing planning for baked goods, and motivating and coordinating the sales team."
+  },
+  {
+    "timeTitle": "2016-2017",
+    "timeSubtitle": "Civil Servant",
+    "contentTitle": "Diakoniewerk - Kulinarium Kitzbühel",
+    "contentText": "Supported people with disabilities in various tasks, including kitchen work, meal transport, and the sale of lunch dishes."
+  },
+  {
+    "timeTitle": "2015",
+    "timeSubtitle": "Intern",
+    "contentTitle": "MED-EL",
+    "contentText": "Assisted in the development of hardware and software components for various test systems within the research and development department."
+  }
+]

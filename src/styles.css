@@ -1,0 +1,95 @@
+@import 'material-icons/iconfont/material-icons.css';
+
+/* Roboto – normal */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+  font-display: swap;
+  src: url('assets/fonts/roboto/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+/* Roboto – italic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+  font-display: swap;
+  src: url('assets/fonts/roboto/Roboto-Italic-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --hp-primary:#0D47A1;
+  --hp-primary-A100: #82B1FF;
+  --hp-secondary:#FAFAFA;
+  --hp-secondary-200: #EEEEEE;
+  --hp-secondary-600: #757575;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.grecaptcha-badge {
+  z-index: 2000;
+}
+
+.universal-spacer {
+  flex: 1 1 auto;
+}
+
+.main-width {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.section-header {
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  color: var(--hp-primary);
+}
+
+.section-header-white {
+  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+}
+
+.section-header-primary {
+  border-bottom: 1px solid #eeeeee;
+  background-color: var(--hp-primary);
+  color: white;
+}
+
+.section-header-secondary {
+  border-bottom: 1px solid #ffffff;
+  background-color: #eeeeee;
+}
+
+.section-content-white {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .main-width {
+    width: calc(100%  - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+
+.mat-body, .mat-body-1, .mat-typography {
+  font: 400 14px/20px Roboto,Helvetica Neue,sans-serif;
+  letter-spacing: normal;
+}
+
+

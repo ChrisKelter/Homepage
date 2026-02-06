@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="de" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="experience" datatype="html">
+        <source>Erfahrung</source>
+        <target>Experience</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/experience/experience.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education" datatype="html">
+        <source>Ausbildung</source>
+        <target>Education</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/education/education.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills" datatype="html">
+        <source>Kenntnisse</source>
+        <target>Skills</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/skills/skills.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="interests" datatype="html">
+        <source>Interessen</source>
+        <target>Interests</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/interests/interests.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact" datatype="html">
+        <source>Kontakt</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="download_cv" datatype="html">
+        <source>CV herunterladen</source>
+        <target>download CV</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="phone" datatype="html">
+        <source>Telefon</source>
+        <target>Phone</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/about/about.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="email" datatype="html">
+        <source>Email</source>
+        <target>Email</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/about/about.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="address" datatype="html">
+        <source>Adresse</source>
+        <target>Address</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/about/about.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="birthday" datatype="html">
+        <source>Geburtsdatum</source>
+        <target>Date of birth</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/about/about.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about_text_intro" datatype="html">
+        <source>Hallo, ich bin Christopher</source>
+        <target>Hello, I am Christopher</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/about/about.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about_text_main" datatype="html">
+        <source>
+          Ich bin seit meiner Jugend technikbegeistert und durch meinen Abschluss an der
+          HTL Anichstraße habe ich meine Leidenschaft für die Informatik entdeckt.
+          Daher studiere ich seit 2017 Informatik an der Universität Innsbruck. Derzeit befinde ich mich
+          im Masterstudium Software Engineering mit der Vertiefung Software Security Engineering.
+          <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          Neben meinem Studium engagiere ich mich ehrenamtlich als Studienvertreter, wo ich seit
+          Juli 2021 Vorsitzender der Fakultätsstudienvertretung
+          NatWi-Technik bin und daher alle Studierenden der Fakultäten für Biologie sowie Mathematik, Informatik und Physik vertrete.
+          Außerdem gehe ich aufgrund meiner früheren Vereinstätigkeit gerne Schwimmen.
+        </source>
+        <target>
+          I have been fascinated by technology since childhood—from HTL Anichstraße, where I focused on electronics and technical computer science, to studying computer science at the University of Innsbruck. Programming and solving complex problems are my passion.
+          <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          In addition to my studies, I was involved as chairman of the student council for over 1,000 students and gained professional experience as a salesperson, student assistant, lecturer, and deputy economic advisor at the ÖH Innsbruck.
+          <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          In my free time, I enjoy sports—fitness, cycling, yoga, spinning, and swimming. I am enthusiastic about technology, communicative, and determined—always with the desire to understand things and shape them positively.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/about/about.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="form_name" datatype="html">
+        <source>Name</source>
+        <target>Name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="form_subject" datatype="html">
+        <source>Betreff</source>
+        <target>Subject</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="form_message" datatype="html">
+        <source>Nachricht</source>
+        <target>Message</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="form_send" datatype="html">
+        <source>Absenden</source>
+        <target>Send</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

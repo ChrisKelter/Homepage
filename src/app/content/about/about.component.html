@@ -1,0 +1,75 @@
+<div class="container">
+  <div class="content main-width">
+    <div class="content-img">
+      <img src="assets/profil_cut.jpg" alt="Christopher Kelter" title="Christopher Kelter"/>
+    </div>
+    <div class="content-text">
+      <div class="content-text-container">
+        <div class="title">{{data.name}}</div>
+        <div class="subtitle">{{data.position}}</div>
+
+        <mat-list>
+          <mat-list-item lines="2">
+            <mat-icon matListItemIcon>phone</mat-icon>
+            <div matListItemTitle class="about-list-title" i18n="@@phone">Telefon</div>
+            <span mat-line><a [href]="'tel:' + data.phone">{{data.phone}}</a></span>
+          </mat-list-item>
+
+          <mat-list-item lines="2">
+            <mat-icon matListItemIcon>alternate_email</mat-icon>
+            <span matListItemTitle class="about-list-title" i18n="@@email">Email</span>
+            <span mat-line><a [href]="'mailto:' + data.mail">{{data.mail}}</a></span>
+          </mat-list-item>
+
+          <mat-list-item lines="3">
+            <mat-icon matListItemIcon>email</mat-icon>
+            <span matListItemTitle mat-line class="about-list-title" i18n="@@address">Adresse</span>
+            <span mat-line>{{data.address.street}}</span><br>
+            <span mat-line>{{data.address.city}}</span>
+          </mat-list-item>
+
+          <mat-list-item lines="2">
+            <mat-icon matListItemIcon>cake</mat-icon>
+            <span matListItemTitle class="about-list-title" i18n="@@birthday">Geburtsdatum</span>
+            <span mat-line>{{data.birthday}}</span>
+          </mat-list-item>
+        </mat-list>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Social Media and Text -->
+<div class="container-social-text">
+  <div class="context-social main-width">
+    <a href="https://www.linkedin.com/in/christopher-kelter-4a84531a4/" target="_blank" aria-label="Christopher Kelter | LinkedIN">
+      <button mat-icon-button aria-label="Christopher Kelter | LinkedIN">
+        <mat-icon svgIcon="linkedin"></mat-icon>
+      </button>
+    </a>
+
+    <a href="https://www.xing.com/profile/Christopher_Kelter" target="_blank" aria-label="Christopher Kelter | XING">
+      <button mat-icon-button aria-label="Christopher Ketler | XING">
+        <mat-icon svgIcon="xing"></mat-icon>
+      </button>
+    </a>
+
+    <a href="https://github.com/ChrisKelter" target="_blank" aria-label="Christopher Kelter | Github">
+      <button mat-icon-button aria-label="Christopher Kelter | GitHub">
+        <mat-icon svgIcon="github"></mat-icon>
+      </button>
+    </a>
+  </div>
+
+  <div class="main-width context-text">
+    <h1 i18n="@@about_text_intro">Hallo, ich bin Christopher</h1>
+
+    <p i18n="@@about_text_main">
+      Technik begeistert mich seit meiner Kindheit – von der HTL Anichstraße mit Schwerpunkt Elektronik und Technische Informatik bis zum Informatikstudium an der Universität Innsbruck. Programmieren und das Lösen komplexer Probleme sind meine Leidenschaft.
+      <br><br>
+      Neben dem Studium engagierte ich mich als Vorsitzender der Studienvertretung für über 1.000 Studierende und sammelte Berufserfahrung als Verkäufer, studentischer Mitarbeiter, Lektor und stellvertretender Wirtschaftsreferent der ÖH Innsbruck.
+      <br><br>
+      In meiner Freizeit bin ich sportlich aktiv – beim Fitness, Radfahren, Yoga, Spinning oder Schwimmen. Ich bin technikbegeistert, kommunikativ und zielstrebig – immer mit dem Wunsch, Dinge zu verstehen und positiv zu gestalten.
+    </p>
+
+  </div>
+</div>

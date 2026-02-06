@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Programmiersprachen",
+    "skills": ["C", "C++", "C#", "Rust", "Python", "JavaScript", "TypeScript", "SQL", "PHP", "HTML", "CSS", "Xtext", "Xtend"]
+  },
+  {
+    "title": "Frameworks & Technologien",
+    "skills": ["Angular 2+", "JSF", "PrimeFaces", "Tailwind CSS", "Angular Material", "Spring Boot", ".NET (Core)", "JPA / Hibernate", "Entity Framework (Core)", "Django"]
+  },
+  {
+    "title": "Projektmanagement",
+    "skills": ["UML", "ER", "CI/CD", "Requirements-Engineering", "Risk-Management"]
+  },
+  {
+    "title": "Qualitätssicherung",
+    "skills": ["Unit-Tests", "Selenium", "Appium", "Mockito", "Pair-Testing", "Parameterized-Tests", "Penetration-Tests", "Performance-Tests"]
+  },
+  {
+    "title": "Tools & Entwicklungsumgebungen",
+    "skills": ["IntelliJ", "WebStorm", "Rider", "Eclipse", "Gradle", "Maven", "GIT"]
+  },
+  {
+    "title": "Sprachen",
+    "skills": ["Deutsch", "Englisch"]
+  }
+]

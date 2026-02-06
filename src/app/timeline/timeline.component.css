@@ -1,0 +1,102 @@
+.circle {
+  width: 100%;
+  height: 6px;
+  text-align: center;
+  position: relative;
+}
+
+.circle svg {
+  margin-left: -3.5px;
+  position: absolute;
+}
+
+.circle > svg > circle {
+  fill: var(--hp-primary);
+}
+
+.section {
+  display: flex;
+  align-items: stretch;
+}
+
+.time {
+  border-right: 1px var(--hp-secondary-200) solid;
+  width: calc(50% - 1px);
+}
+
+.time-title, .time-subtitle {
+  margin-right: 20px;
+  text-align: right;
+}
+
+.time-title {
+  font-weight: bold;
+  color: var(--hp-primary);
+  letter-spacing: 0.2rem;
+}
+
+.time-subtitle {
+
+}
+
+.content-title, .content-text {
+  margin-left: 20px;
+}
+
+.content {
+  width: 50%;
+}
+
+.content-title {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.content-text {
+  padding-bottom: 20px;
+}
+
+
+.content-title, .time-title {
+  padding-bottom: 5px;
+}
+
+.subContent {
+  margin-top: 5px;
+}
+
+.subContentTitle {
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .circle {
+    display: none;
+  }
+
+  .section {
+    width: 100%;
+    display: block;
+  }
+
+  .time, .content {
+    border-right: none;
+    width: 100%;
+  }
+
+  .time-title, .time-subtitle {
+    margin-right: 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  .time-subtitle, .content-title, .content-text {
+    margin-left: 10px;
+  }
+
+  .time-title {
+    display: list-item;
+    list-style-type:initial;
+    margin-left: 10px;
+  }
+}

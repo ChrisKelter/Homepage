@@ -1,0 +1,102 @@
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #sidenav role="navigation">
+    <div class="mobile-nav-header">
+      <button mat-icon-button  class="mobile-nav-exit" (click)="sideNav?.toggle()">
+        <mat-icon>clear</mat-icon>
+      </button>
+      <div class="universal-spacer"></div>
+      <button mat-button [matMenuTriggerFor]="menuMobile" class="language-menu-mobile">{{languageMenu.current}}</button>
+      <mat-menu #menuMobile="matMenu">
+        <a *ngFor="let item of languageMenu.options" href="/{{item}}">
+          <button mat-menu-item class="language-menu-button">{{item}}</button>
+        </a>
+      </mat-menu>
+    </div>
+
+    <mat-nav-list class="mobile-nav">
+      <a mat-list-item (click)="scrollMobile(experience)">
+        <span i18n="@@experience">Erfahrung</span>
+      </a>
+      <a mat-list-item (click)="scrollMobile(education)">
+        <span i18n="@@education">Ausbildung</span>
+      </a>
+      <a mat-list-item (click)="scrollMobile(skills)">
+        <span i18n="@@skills">Kenntnisse</span>
+      </a>
+      <a mat-list-item (click)="scrollMobile(interests)">
+        <span i18n="@@interests">Interessen</span>
+      </a>
+      <a mat-list-item (click)="scrollMobile(contact)">
+        <span i18n="@@contact">Kontakt</span>
+      </a>
+    </mat-nav-list>
+  </mat-drawer>
+
+  <mat-drawer-content>
+    <mat-toolbar color="primary">
+      <div class="hide-gt-sm">
+        <button mat-icon-button (click)="sidenav.toggle()">
+          <mat-icon>menu</mat-icon>
+        </button>
+      </div>
+      <span class="toolbar-header" (click)="scroll(about)">Christopher Kelter</span>
+
+      <div class="flex flex-end flex-fill hide-lt-md">
+        <ul class="flex flex-gap-15 navigation-items">
+          <li></li>
+          <li (click)="scroll(experience)" i18n="@@experience">Erfahrung</li>
+          <li (click)="scroll(education)" i18n="@@education">Ausbildung</li>
+          <li (click)="scroll(skills)" i18n="@@skills">Kenntnisse</li>
+          <li (click)="scroll(interests)" i18n="@@interests">Interessen</li>
+          <li (click)="scroll(contact)" i18n="@@contact">Kontakt</li>
+          <li>
+            <button mat-button [matMenuTriggerFor]="menu">{{languageMenu.current}}</button>
+            <mat-menu #menu="matMenu">
+              <a *ngFor="let item of languageMenu.options" href="/{{item}}">
+                <button mat-menu-item class="language-menu-button">{{item}}</button>
+              </a>
+            </mat-menu>
+          </li>
+        </ul>
+      </div>
+    </mat-toolbar>
+
+    <main>
+      <section #about>
+        <app-about></app-about>
+      </section>
+
+      <section #experience class="scroll-fix">
+        <app-experience></app-experience>
+      </section>
+
+      <section #education class="scroll-fix">
+        <app-education></app-education>
+      </section>
+
+      <section #skills class="scroll-fix">
+        <app-skills></app-skills>
+      </section>
+
+      <section #interests class="scroll-fix">
+        <app-interests></app-interests>
+      </section>
+
+      <section #contact class="scroll-fix">
+        <app-contact></app-contact>
+      </section>
+
+      <section>
+        <div class="main-width footer">
+          <a href="assets/cv_kelter.pdf" target="_blank">
+            <button mat-flat-button color="primary" i18n="@@download_cv">CV herunterladen</button>
+          </a>
+          <div class="universal-spacer"></div>
+          <div class="footer-name">&copy; 2026 Christopher Kelter</div>
+        </div>
+      </section>
+    </main>
+  </mat-drawer-content>
+
+</mat-drawer-container>
+

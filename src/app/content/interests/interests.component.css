@@ -1,0 +1,24 @@
+.container-interests {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.interests-item {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.interests-item mat-icon {
+  font-size: 40px;
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .interests-item {
+    width: 150px;
+  }
+}

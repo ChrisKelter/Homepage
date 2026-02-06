@@ -1,0 +1,18 @@
+<div class="section-header section-header-primary" i18n="@@skills">Kenntnisse</div>
+<div class="container">
+  <div class="content main-width">
+    <div class="skill-box">
+      @for (s of skills; track s.title) {
+        <div class="skill-item">
+          <div class="skill-title">{{s.title}}</div>
+          <mat-chip-set class="skill-elements" >
+            @for (c of s.skills; track $index) {
+              <mat-chip>{{c}}</mat-chip>
+            }
+          </mat-chip-set>
+        </div>
+      }
+      <!--div class="skill-item" *ngFor="let skill of skills">{{skill.skill}} - {{skill.grade}}</div-->
+    </div>
+  </div>
+</div>

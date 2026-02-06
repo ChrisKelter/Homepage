@@ -1,0 +1,71 @@
+<div class="section-header section-header-secondary" i18n="@@contact">Kontakt</div>
+<div class="container-secondary">
+  <div class="main-width content">
+    <div class="content-text">
+      <div class="content-text-container">
+        <div class="title">{{data.name}}</div>
+        <div class="subtitle">{{data.position}}</div>
+
+        <mat-list>
+          <mat-list-item lines="2">
+            <mat-icon matListItemIcon>phone</mat-icon>
+            <div matListItemTitle class="about-list-title" i18n="@@phone">Telefon</div>
+            <span mat-line><a [href]="'tel:' + data.phone">{{data.phone}}</a></span>
+          </mat-list-item>
+
+          <mat-list-item lines="2">
+            <mat-icon matListItemIcon>alternate_email</mat-icon>
+            <span matListItemTitle class="about-list-title" i18n="@@email">Email</span>
+            <span mat-line><a [href]="'mailto:' + data.mail">{{data.mail}}</a></span>
+          </mat-list-item>
+
+          <mat-list-item lines="3">
+            <mat-icon matListItemIcon>email</mat-icon>
+            <span matListItemTitle mat-line class="about-list-title" i18n="@@address">Adresse</span>
+            <span mat-line>{{data.address.street}}</span><br>
+            <span mat-line>{{data.address.city}}</span>
+          </mat-list-item>
+
+          <mat-list-item lines="2">
+            <mat-icon matListItemIcon>cake</mat-icon>
+            <span matListItemTitle class="about-list-title" i18n="@@birthday">Geburtsdatum</span>
+            <span mat-line>{{data.birthday}}</span>
+          </mat-list-item>
+        </mat-list>
+      </div>
+    </div>
+
+    <div class="content-form">
+      <form class="content-form-container" [formGroup]="formGroup">
+        <div class="name-email">
+          <mat-form-field >
+            <input matInput formControlName="name" required>
+            <mat-label i18n="@@form_name">Name</mat-label>
+          </mat-form-field>
+
+          <mat-form-field>
+            <input matInput formControlName="email" required>
+            <mat-label i18n="@@email">Email</mat-label>
+          </mat-form-field>
+        </div>
+
+        <mat-form-field>
+          <input matInput formControlName="subject" required>
+          <mat-label i18n="@@form_subject">Betreff</mat-label>
+        </mat-form-field>
+
+        <mat-form-field>
+          <textarea matInput rows="5" formControlName="message" required></textarea>
+          <mat-label i18n="@@form_message">Nachricht</mat-label>
+        </mat-form-field>
+
+        <div class="contact-captcha">
+          <div #friendlyCaptcha></div>
+        </div>
+
+        <button class="contact-button" mat-flat-button color="primary" [disabled]="!formIsValid" (click)="sendMessage()" i18n="@@form_send">Absenden</button>
+      </form>
+    </div>
+  </div>
+</div>
+

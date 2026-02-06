@@ -1,0 +1,26 @@
+<div id="timelineContent">
+  <div class="timeline-element" *ngFor="let d of data ">
+    <div class="circle">
+      <svg height="6" width="6">
+        <circle cx="3" cy="3" r="3" />
+      </svg>
+    </div>
+    <div class="section">
+      <div class="time">
+        <div class="time-title animate">{{d.timeTitle}}</div>
+        <div class="time-subtitle animate">{{d.timeSubtitle}}</div>
+      </div>
+      <div class="content">
+        <div class="content-title animate">{{d.contentTitle}}</div>
+        <div class="content-text animate">
+          <div>{{d.contentText}}</div>
+          <div *ngIf="d.subContent" class="subContent">
+            <span class="subContentTitle">{{d.subContent.title}}: </span>
+            <span>{{d.subContent.content}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

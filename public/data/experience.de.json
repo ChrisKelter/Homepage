@@ -1,0 +1,32 @@
+[
+  {
+    "timeTitle": "10/2022-03/2026",
+    "timeSubtitle": "Lektor / Dozent",
+    "contentTitle": "Universität Innsbruck",
+    "contentText": "Mehrjährige Erfahrung in der Leitung von Lehrveranstaltungen in verschiedenen Fachrichtungen mit Schwerpunkt auf Datenbanksysteme, objektorientierter Programmierung und Software-Engineering. Vermittlung praxisnaher Inhalte wie Java, SQL, UML-Modellierung, sowie die Grundlagen des Projektmanagements in der Softwareentwicklung. Der Fokus lag auf der Verbindung theoretischer Konzepte mit praktischer Anwendung und der Förderung analytischen und strukturierten Denkens."
+  },
+  {
+    "timeTitle": "11/2021-05/2025",
+    "timeSubtitle": "Studentischer Mitarbeiter",
+    "contentTitle": "Universität Innsbruck",
+    "contentText": "Mitarbeit im Forschungsprojekt INNALP Education Hub mit Verantwortung für die Entwicklung einer webbasierten Lernumgebung zur praxisnahen Vermittlung von Robotik und Künstlicher Intelligenz. Umsetzung einer voll funktionsfähigen Web-App, in der KI-Modelle trainiert und in eigenem Code angewendet werden konnten. Einsatz von WebAssembly und Bluetooth zur Schaffung einer installationsfreien, interaktiven Entwicklungsumgebung für Schüler:innen. Durchführung von Workshops mit Schüler:innen unter Einsatz der entwickelten Lernanwendung sowie wissenschaftliche Aufarbeitung und Präsentation der Ergebnisse im Rahmen von Fachpublikationen und Konferenzen."
+  },
+  {
+    "timeTitle": "09/2017-10/2021",
+    "timeSubtitle": "Verkäufer und stellvertretender Bäckereileiter",
+    "contentTitle": "Der Bäcker Ruetz",
+    "contentText": "Geringfügige Anstellung als Verkäufer und Teamleiter in der Filiale Mühlau/Arzl (Innsbruck) mit Verantwortung über das Wochenendteam, einschließlich Dienstplanerstellung, Einkaufsplanung für Backwaren sowie Motivation und Koordination des Verkaufsteams."
+  },
+  {
+    "timeTitle": "2016-2017",
+    "timeSubtitle": "Zivildiener",
+    "contentTitle": "Diakoniewerk - Kulinarium Kitzbühel",
+    "contentText": "Unterstützung von Menschen mit Behinderung in verschiedenen Bereichen beim Arbeiten in der Küche, sowie beim Transport und Verkauf von Mittagsgerichten."
+  },
+  {
+    "timeTitle": "2015",
+    "timeSubtitle": "Parktikant",
+    "contentTitle": "MED-EL",
+    "contentText": "Mithilfe bei der Entwicklung von Hard- und Softwarekomponenten von verschiedenen Testobjekten in der Forschungs- und Entwicklungsabteilung."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "description": "Cycling",
+    "icon": "directions_bike"
+  },
+  {
+    "description": "Fitness",
+    "icon": "fitness_center"
+  },
+  {
+    "description": "Yoga",
+    "icon": "self_improvement"
+  },
+  {
+    "description": "Swimming",
+    "icon": "pool"
+  },
+  {
+    "description": "BBQ",
+    "icon": "outdoor_grill"
+  },
+  {
+    "description": "Wine & Co.",
+    "icon": "wine_bar"
+  },
+  {
+    "description": "Cooking",
+    "icon": "local_dining"
+  },
+  {
+    "description": "Cinema",
+    "icon": "local_movies"
+  }
+]

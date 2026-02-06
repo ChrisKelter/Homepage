@@ -1,0 +1,33 @@
+[
+  {
+    "timeTitle": "since 2021",
+    "timeSubtitle": "Master of Science, Software Engeneering",
+    "contentTitle": "University of Innsbruck",
+    "contentText": "In-depth expertise in software engineering with a focus on data and security engineering, as well as specialization in software security engineering. Extensive knowledge of software project management, software architectures, development processes, and requirements engineering.",
+    "subContent": {
+      "title": "Master Thesis",
+      "content": "Meta-metamodel Independent Model Transformations"
+    }
+  },
+  {
+    "timeTitle": "2017-2021",
+    "timeSubtitle": "Bachelor of Science, Computer Science",
+    "contentTitle": "University of Innsbruck",
+    "contentText": "Versatile education in computer science in the areas of: software engineering, databases, communication technology, performance-oriented programming, mathematics und logic.",
+    "subContent": {
+      "title": "Bachelor Thesis",
+      "content": "Central Authentication and Authorization Service"
+    }
+  },
+  {
+    "timeTitle": "2011-2016",
+    "timeSubtitle": "High School",
+    "contentTitle": "HTL Anichstraße",
+    "contentText": "Technical education at the electronics and technical computer science department with a focus on: designing hardware, developing software and managing networks.",
+    "subContent": {
+      "title": "Diploma Thesis",
+      "content": "Redesign of the HTL Anichstraße school website and redevelopment of the HTL iOS app."
+    }
+  }
+]
+
