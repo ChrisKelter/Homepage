@@ -1,7 +1,7 @@
 # Personal Homepage of [Christopher Kelter](https://kelter.at)
 [https://www.kelter.at](https://kelter.at)
 
-The projects is written with Angular 18 and Angular Material UI Components.
+The project is developed using Angular 18 and Angular Material UI components.
 
 Third party tools:
 - Icons: [Material Icons](https://fonts.google.com/icons)
