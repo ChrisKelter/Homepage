@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="de">
+  <file id="ngi18n" original="ng.template">
+    <unit id="experience">
+      <notes>
+        <note category="location">src/app/app.component.html:18,20</note>
+        <note category="location">src/app/app.component.html:50,51</note>
+        <note category="location">src/app/content/experience/experience.component.html:1,2</note>
+      </notes>
+      <segment>
+        <source>Erfahrung</source>
+      </segment>
+    </unit>
+    <unit id="education">
+      <notes>
+        <note category="location">src/app/app.component.html:21,23</note>
+        <note category="location">src/app/app.component.html:51,52</note>
+        <note category="location">src/app/content/education/education.component.html:1,2</note>
+      </notes>
+      <segment>
+        <source>Ausbildung</source>
+      </segment>
+    </unit>
+    <unit id="skills">
+      <notes>
+        <note category="location">src/app/app.component.html:24,26</note>
+        <note category="location">src/app/app.component.html:52,53</note>
+        <note category="location">src/app/content/skills/skills.component.html:1,2</note>
+      </notes>
+      <segment>
+        <source>Kenntnisse</source>
+      </segment>
+    </unit>
+    <unit id="projects">
+      <notes>
+        <note category="location">src/app/app.component.html:27,29</note>
+        <note category="location">src/app/app.component.html:53,54</note>
+        <note category="location">src/app/content/projects/projects.component.html:1,2</note>
+      </notes>
+      <segment>
+        <source>Projekte</source>
+      </segment>
+    </unit>
+    <unit id="interests">
+      <notes>
+        <note category="location">src/app/app.component.html:30,32</note>
+        <note category="location">src/app/app.component.html:54,55</note>
+        <note category="location">src/app/content/interests/interests.component.html:1,2</note>
+      </notes>
+      <segment>
+        <source>Interessen</source>
+      </segment>
+    </unit>
+    <unit id="contact">
+      <notes>
+        <note category="location">src/app/app.component.html:33,35</note>
+        <note category="location">src/app/app.component.html:55,57</note>
+        <note category="location">src/app/content/contact/contact.component.html:1,2</note>
+      </notes>
+      <segment>
+        <source>Kontakt</source>
+      </segment>
+    </unit>
+    <unit id="download_cv">
+      <notes>
+        <note category="location">src/app/app.component.html:100,102</note>
+      </notes>
+      <segment>
+        <source>CV herunterladen</source>
+      </segment>
+    </unit>
+    <unit id="phone">
+      <notes>
+        <note category="location">src/app/content/about/about.component.html:14,15</note>
+        <note category="location">src/app/content/contact/contact.component.html:12,13</note>
+      </notes>
+      <segment>
+        <source>Telefon</source>
+      </segment>
+    </unit>
+    <unit id="email">
+      <notes>
+        <note category="location">src/app/content/about/about.component.html:20,21</note>
+        <note category="location">src/app/content/contact/contact.component.html:18,19</note>
+        <note category="location">src/app/content/contact/contact.component.html:48,49</note>
+      </notes>
+      <segment>
+        <source>Email</source>
+      </segment>
+    </unit>
+    <unit id="address">
+      <notes>
+        <note category="location">src/app/content/about/about.component.html:26,27</note>
+        <note category="location">src/app/content/contact/contact.component.html:24,25</note>
+      </notes>
+      <segment>
+        <source>Adresse</source>
+      </segment>
+    </unit>
+    <unit id="birthday">
+      <notes>
+        <note category="location">src/app/content/about/about.component.html:33,34</note>
+        <note category="location">src/app/content/contact/contact.component.html:31,32</note>
+      </notes>
+      <segment>
+        <source>Geburtsdatum</source>
+      </segment>
+    </unit>
+    <unit id="about_text_intro">
+      <notes>
+        <note category="location">src/app/content/about/about.component.html:64,66</note>
+      </notes>
+      <segment>
+        <source>Hallo, ich bin Christopher</source>
+      </segment>
+    </unit>
+    <unit id="about_text_main">
+      <notes>
+        <note category="location">src/app/content/about/about.component.html:67,72</note>
+      </notes>
+      <segment>
+        <source> Technik begeistert mich seit meiner Kindheit, von der HTL Anichstraße mit Schwerpunkt Elektronik und Technische Informatik bis zum Informatikstudium an der Universität Innsbruck. Programmieren und das Lösen komplexer Probleme sind meine Leidenschaft. <ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> Neben dem Studium engagierte ich mich als Vorsitzender der Studienvertretung für über 1.000 Studierende und sammelte Berufserfahrung als Verkäufer, studentischer Mitarbeiter, Lektor und stellvertretender Wirtschaftsreferent der ÖH Innsbruck. <ph id="2" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/><ph id="3" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> In meiner Freizeit bin ich sportlich aktiv, beim Fitness, Radfahren, Yoga, Spinning oder Schwimmen. Ich bin technikbegeistert, kommunikativ und zielstrebig, immer mit dem Wunsch, Dinge zu verstehen und positiv zu gestalten. </source>
+      </segment>
+    </unit>
+    <unit id="form_name">
+      <notes>
+        <note category="location">src/app/content/contact/contact.component.html:43,44</note>
+      </notes>
+      <segment>
+        <source>Name</source>
+      </segment>
+    </unit>
+    <unit id="form_subject">
+      <notes>
+        <note category="location">src/app/content/contact/contact.component.html:54,55</note>
+      </notes>
+      <segment>
+        <source>Betreff</source>
+      </segment>
+    </unit>
+    <unit id="form_message">
+      <notes>
+        <note category="location">src/app/content/contact/contact.component.html:59,60</note>
+      </notes>
+      <segment>
+        <source>Nachricht</source>
+      </segment>
+    </unit>
+    <unit id="form_send">
+      <notes>
+        <note category="location">src/app/content/contact/contact.component.html:66,68</note>
+      </notes>
+      <segment>
+        <source>Absenden</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>
