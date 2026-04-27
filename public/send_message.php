@@ -1,7 +1,6 @@
 <?php
   require_once('../const.php');
   define("VERIFY_URL", "https://global.frcapi.com/api/v2/captcha/siteverify");
-  define("API_KEY", "A1C8I0498870QRFLK2BMURQ2DU5OV3HB7UHQOJL3CAC14EFSUFMP6ANHNF");
   define("EMAIL_FROM", "webform@kelter.at");
   define("EMAIL_TO", "christopher@kelter.at");
 
