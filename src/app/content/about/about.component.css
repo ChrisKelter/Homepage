@@ -8,6 +8,14 @@
   background-color: var(--hp-primary);
 }
 
+.me-title {
+  line-height: 1.5!important;
+}
+
+.me-text {
+  font-size: medium!important;
+}
+
 .content {
   padding-top: 200px;
   display: flex;

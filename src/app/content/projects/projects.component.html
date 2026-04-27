@@ -1,0 +1,55 @@
+<div class="section-header section-header-secondary" i18n="@@projects">Projekte</div>
+<div class="container-secondary">
+    <div class="main-width">
+        <div class="projects-grid">
+            @for (project of currentProjects; track $index) {
+            <div class="project-item">
+                <div class="projects-title">{{ project.title }}</div>
+                @if (project.category) {
+                    <div class="projects-subtitle">{{ project.category }}</div>
+                }
+
+                <p class="description">
+                    {{ project.description }}
+                </p>
+
+                <div class="tech-stack">
+                    <mat-chip-listbox>
+                        @for (tech of project.tech; track $index) {
+                            <mat-chip>{{ tech }} </mat-chip>
+                        }
+                    </mat-chip-listbox>
+                </div>
+
+                <div class="project-buttons">
+                    @if (project.git) {
+                        <a [href]="project.git" target="_blank">
+                            <button mat-button>
+                                Code
+                            </button>
+                        </a>
+                    }
+
+
+                    @if (project.demo) {
+                        <a [href]="project.demo" target="_blank">
+                            <button mat-button>Live Demo</button>
+                        </a>
+                    }
+                </div>
+            </div>
+            }
+        </div>
+        <div class="projects-paginator-container">
+            <mat-paginator #paginator
+                           class="projects-paginator"
+                           (page)="handlePageEvent($event)"
+                           [length]="projects.length"
+                           [pageSize]="pageSize"
+                           [disabled]="false"
+                           [hidePageSize]="true" >
+            </mat-paginator>
+        </div>
+    </div>
+</div>
+

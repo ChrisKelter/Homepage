@@ -21,11 +21,12 @@ import {SkillsComponent} from "./content/skills/skills.component";
 import {InterestsComponent} from "./content/interests/interests.component";
 import {ContactComponent} from "./content/contact/contact.component";
 import {provideHttpClient} from "@angular/common/http";
+import {ProjectsComponent} from "./content/projects/projects.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MatIcon, MatSidenavContainer, MatMenu, MatMenuTrigger, MatNavList, MatToolbar, MatDrawer, MatDrawerContent, MatDrawerContainer, MatButton, MatListItem, MatIconButton, MatMenuItem, NgForOf, AboutComponent, ExperienceComponent, EducationComponent, SkillsComponent, InterestsComponent, ContactComponent],
+    imports: [RouterOutlet, MatIcon, MatSidenavContainer, MatMenu, MatMenuTrigger, MatNavList, MatToolbar, MatDrawer, MatDrawerContent, MatDrawerContainer, MatButton, MatListItem, MatIconButton, MatMenuItem, NgForOf, AboutComponent, ExperienceComponent, EducationComponent, SkillsComponent, InterestsComponent, ContactComponent, ProjectsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   providers: [

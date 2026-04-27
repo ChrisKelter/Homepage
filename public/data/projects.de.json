@@ -1,0 +1,105 @@
+[
+  {
+    "title": "Meta-metamodel Independent Model Transformations",
+    "description": "Ein flexibles Framework zur Transformation von Modellen im XML-Format (z. B. UML oder Gebäudemodelle) wurde entwickelt. Die Verarbeitung erfolgt Model- und Metamodellbasiert und ist unabhängig vom zugrunde liegenden Meta-Metamodell. Die eigentlichen Transformationen werden durch benutzerdefinierte Regeln gesteuert, die in einer speziell entwickelten domänenspezifischen Sprache (DSL) formuliert werden. Dadurch lassen sich Modelltransformationen individuell anpassen und einfach erweitern.",
+    "tech": ["Java", "Spring Boot", "Xtext", "Xtend", "Angular", "PrimeNG", "Language Server", "DSL", "TypeScript"],
+    "git": "https://git.uibk.ac.at/csav4731/ma-thesis",
+    "category": "Masterarbeit"
+  },
+  {
+    "title": "WebIDE für den Sphero BOLT",
+    "description": "Das Projekt entwickelt eine vollumfängliche Web-IDE zur Programmierung des Sphero BOLT, die vollständig im Browser läuft und keine Installation erfordert. Programme können wahlweise per Blockprogrammierung oder in Python erstellt werden, wobei ein Python-Interpreter via WebAssembly direkt im Browser ausgeführt wird. Neben grundlegender Steuerung unterstützt die Umgebung auch ereignisbasierte Funktionen wie KI-Klassifikation, AprilTag-Erkennung und Kollisionsverarbeitung. Damit entsteht eine flexible, leicht zugängliche Plattform für die Robotikprogrammierung im Bildungsbereich.",
+    "tech": ["Angular", "WebAssembly", "Python", "Pyodide", "OpenCV", "Tensorflow", "TypeScript", "JavaScript", "PrimeNG", "AI", "Docker", "CI/CD"],
+    "git": "https://git.uibk.ac.at/informatik/stair/sphero-blockly",
+    "demo": "https://stair-lab.uibk.ac.at/sphero-blockly/",
+    "category": "Forschungsprojekt"
+  },
+  {
+    "title": "STAIR Lab Minibot",
+    "description": "Im Projekt wurde ein umfassendes Framework zur Integration von Robotik und KI im Bildungsbereich entwickelt. Über eine webbasierte Programmierumgebung können Schüler:innen von der Unterstufe bis zur Universität mit Robotik- und KI-Anwendungen arbeiten. Die Plattform basiert auf ROS und blockbasierter Programmierung und bietet eine abstrahierte API, sodass auch ohne ROS-Kenntnisse programmiert werden kann. Ein integrierter Schilderkennungs-Workshop vermittelt Grundlagen von KI-Klassifikationsmodellen und führt zur Entwicklung eines autonom fahrenden Roboters. Eine Virtualisierungsumgebung ermöglicht zusätzlich das Testen und Entwickeln ohne physischen Roboter.",
+    "tech": ["ROS", "Python", "Angular","PrimeNG","OpenCV", "Tensorflow", "RVIZ", "Flask", "Docker", "CI/CD", "JavaScript", "TypeScript", "Gazebo"],
+    "git": "https://git.uibk.ac.at/informatik/stair/ros-blockly",
+    "demo": "https://stair-lab.uibk.ac.at/ros-blockly/",
+    "category": "Forschungsprojekt"
+  },
+  {
+    "title": "Wartemarken-System",
+    "description": "Es wurde ein modulares Terminbuchungssystem entwickelt, das eine ortsunabhängige Buchung über ein Webportal ermöglicht. Zusätzlich können vor Ort Wartemarken entweder als Ausdruck oder digital aufs Smartphone bezogen werden. Nutzer werden automatisch über eine WebApp sowie über Displays vor Ort informiert. Alle Komponenten sind sicher vernetzt und das System lässt sich flexibel um weitere Module erweitern.",
+    "tech": ["C#",".NET", "Entity Framework", "Angular", "PrimeNG", "SignalR", "Python", "RaspberryPi", "Linux", "Docker", "CI/CD"],
+    "git": "https://github.com/ChrisKelter/Waiting-Mark-Donator",
+    "category": "Masterprojekt mit Industriepartner"
+  },
+  {
+    "title": "Metroidvania: Jump and Run",
+    "description": "Das Projekt ist ein modular aufgebautes Jump-and-Run-Spiel mit einer flexiblen Engine-Architektur. Es unterstützt mehrere Level über einen Tilemap-Parser sowie Animationen, Sprite-Management und eine einfache Physik für Bewegung und Kollisionen. Die Spielstruktur basiert auf einem Entity-Component-System, das eine flexible Erweiterung der Spielobjekte ermöglicht. Eine dynamische Kamera verfolgt den Spieler durch die Level, während Debug-Tools die Entwicklung unterstützen. Ergänzt wird das System durch ein Kampfsystem sowie Speicher- und Ladefunktionen für den Spielstand.",
+    "tech": ["C++", "SFML", "LdtkLoader", "CMake"],
+    "git": "https://github.com/ChrisKelter/Metroidvania",
+    "category": "Masterprojekt"
+  },
+  {
+    "title": "Fahrschulvergleichsprotal",
+    "description": "Das Projekt ist ein modernes Vergleichsportal für Fahrschulen, das Nutzer:innen dabei unterstützt, schnell und einfach die passende Fahrschule zu finden. Über eine intuitive, responsive Benutzeroberfläche können Fahrschulen nach Ort, Preis und Führerscheintyp gefiltert und direkt miteinander verglichen werden. Ein zentrales Feature ist der strukturierte Direktvergleich, der transparente Informationen zu Kosten, Angeboten und Ausbildungsklassen übersichtlich gegenüberstellt. Ergänzt wird dies durch Benutzerbewertungen, die echte Erfahrungen widerspiegeln und die Entscheidungsfindung erleichtern. Eine integrierte Kartenansicht zeigt alle verfügbaren Fahrschulen in der Umgebung und ermöglicht eine visuelle Orientierung sowie eine schnelle Auswahl vor Ort. ",
+    "tech": ["C#", ".NET", "Entity Framework", "NUnit", "Selenium", "Angular", "PrimeNG", "Trello", "CI/CD", "JWT"],
+    "git": "https://github.com/ChrisKelter/DrivingSchoolComparisonPlatform",
+    "category": "Masterprojekt"
+  },
+  {
+    "title": "Bitcon Price Prediction",
+    "description": "Das Projekt analysiert den Einfluss einflussreicher Persönlichkeiten wie Elon Musk auf den Kurs von Bitcoin. Dabei werden relevante Tweets gesammelt und mithilfe einer Sentiment-Analyse in positive und negative Aussagen klassifiziert.Im Anschluss wird untersucht, ob ein Zusammenhang zwischen der Stimmung der Tweets und Kursbewegungen besteht, insbesondere, ob positive Aussagen mit Kursanstiegen und negative Aussagen mit Kursrückgängen korrelieren. Ziel des Tools ist es, potenzielle Zusammenhänge zwischen öffentlicher Meinungsäußerung und Finanzmarktreaktionen sichtbar zu machen.",
+    "tech": ["Python", "Jupyter Notebooks", "Pandas", "Scikit-learn Linear Regression", "VADER Sentiment Analyzer"],
+    "git": "https://github.com/ChrisKelter/BitcoinPricePrediction",
+    "category": "Masterprojekt"
+  },
+  {
+    "title": "Zentraler Authentifizierungs- und Authorisierungsservice",
+    "description": "Die Bachelorarbeit umfasst die Entwicklung eines Single-Sign-On (SSO) Services auf Basis des OpenID-Connect-Standards, der eine zentrale und sichere Authentifizierung für unterschiedliche Anwendungen ermöglicht. Ergänzt wird das System durch eine integrierte Benutzerverwaltung sowie die Unterstützung von Windows-Authentifizierung, wodurch eine nahtlose Einbindung in bestehende IT-Infrastrukturen gewährleistet wird. Ein zentrales Element ist die Rechtezuweisung, die eine flexible Steuerung von Benutzerberechtigungen ermöglicht. Diese Berechtigungen werden systemübergreifend synchronisiert, sodass Änderungen in konsistent in allen angebundenen Anwendungen verfügbar sind.Das System wurde umfassend getestet, einschließlich funktionaler Integrationtests, Systemtests und intensiver Performancetests, um Stabilität, Skalierbarkeit und Zuverlässigkeit auch unter hoher Last sicherzustellen.",
+    "tech": [".NET", "Entity Framework", "REST", "Swagger UI", "NUnit", "Angular", "Material UI", "JWT", "Selenium", "Appium", "k6", "CI/CD"],
+    "git": "https://github.com/ChrisKelter/ba-thesis-zaa",
+    "category": "Bachelorarbeit"
+  },
+  {
+    "title": "Schnitzeljagd WebApp",
+    "description": "Die Multi-User-Schnitzeljagd WebApp ermöglicht teambasierte Spiele in Echtzeit. Nutzer:innen registrieren sich in 3er-Teams und müssen gemeinsam Orte finden. Über QR-Code-Scans werden Stationen bestätigt und Punkte dynamisch vergeben. Eine Echtzeit-Synchronisation via WebSockets sorgt dafür, dass alle Teammitglieder stets den aktuellen Spielstand sehen. Dadurch entsteht ein interaktives, kooperatives Spielerlebnis mit direkter Rückmeldung und Wettbewerbskomponente.",
+    "tech": [".NET", "Entity Framework", "REST", "NUnit", "Angular", "PrimeNG", "JWT", "SignalR", "Docker", "CI/CD"],
+    "git": "https://github.com/ChrisKelter/ScavengerHunt",
+    "demo": "https://tutorium.natwi-technik.at",
+    "category": "ÖH Projekt"
+  },
+  {
+    "title": "Informatik Wiki",
+    "description": "Es wurde eine Sharing-Plattform entwickelt, die Informatikstudierenden den strukturierten Austausch von Wissen und Lernunterlagen ermöglicht. Über eine Web-App können Inhalte in einem virtuellen Dateisystem organisiert werden, in dem Ordner und Dateien flexibel verwaltet werden können. Der Zugang zum System ist durch eine SAML-Authentifizierung über den Identity Provider der Universität Innsbruck geschützt und gewährleistet so, dass nur berechtigte Studierende Zugriff erhalten. Um die Qualität der Inhalte sicherzustellen, werden eingereichte Beiträge zusätzlich durch ein Validierungssystem geprüft, bevor sie veröffentlicht werden.",
+    "tech": ["Java", "Spring Boot", "JPA", "Angular", "TypeScript", "Material UI", "SAML"],
+    "git": "https://github.com/ChrisKelter/info-wiki",
+    "demo": "https://wiki.binaryibk.at",
+    "category": "ÖH Projekt"
+  },
+  {
+    "title": "SuperChat",
+    "description": "Es wurde eine Online-Chat-Plattform für den Multi-User-Betrieb entwickelt, die sowohl direkte 1:1-Kommunikation als auch Chat-Räume unterstützt. Die Kommunikation erfolgt in Echtzeit über WebSockets, wodurch Nachrichten ohne Verzögerung zwischen den Nutzer:innen ausgetauscht werden können.Die Architektur basiert auf Domain-Driven Design (DDD) und ist konsequent entlang der fachlichen Domänen strukturiert. Dadurch entsteht ein modular aufgebautes System mit klar getrennten Verantwortlichkeiten für Benutzerverwaltung, Chat-Räume und Nachrichtenverarbeitung.",
+    "tech": ["Java", "Spring Boot", "GraphQL", "JWT", "Angular", "Material UI", "Karma", "JUnit", "Docker"],
+    "git": "https://github.com/ChrisKelter/Superchat",
+    "category": "Bachelorprojekt"
+  },
+  {
+    "title": "PubQuiz WebApp",
+    "description": "Es wurde eine Virtual-Pubquiz WebApp entwickelt, die während der COVID-19-Pandemie die Durchführung von Online-Quizveranstaltungen ermöglicht. Die Plattform unterstützt die Verwaltung verschiedener Quizsets und bietet flexible Fragetypen wie Single Choice, Multiple Choice, offene Fragen sowie Bildfragen. Ein zentrales Merkmal ist die vollautomatische Auswertung der Antworten, wodurch Ergebnisse in Echtzeit berechnet und direkt angezeigt werden können.",
+    "tech": ["Java", "Spring Boot", "JPA", "Angular", "Material UI", "Gradle"],
+    "git": "https://github.com/ChrisKelter/pubquiz",
+    "demo": "https://pubquiz.binaryibk.at",
+    "category": "ÖH Projekt"
+  },
+  {
+    "title": "Quizteam",
+    "description": "Es wurde ein Multi-User-Quizspiel entwickelt, bei dem Teams gemeinsam Fragen aus verschiedenen Kategorien lösen. Der Fokus liegt auf kollaborativem Spielen, bei dem Teammitglieder ihre Antworten abstimmen und gemeinsam Punkte sammeln.Die Anwendung verfügt über ein Scoreboard, das die Ergebnisse vergangener Spiele speichert und vergleichbar macht. Zusätzlich wurde ein Reverse-Game-Modus implementiert, bei dem bereits gegebene Antworten angezeigt werden und die passende Frage erraten werden muss.",
+    "tech": ["Java", "Spring Boot", "JSF", "JPA", "JUnit", "Selenium", "Vagrant", "Bootstrap CSS", "PrimeFaces", "maven"],
+    "git": "https://github.com/ChrisKelter/quizteam",
+    "category": "Bachelorprojekt"
+  },
+  {
+    "title": "Geräte Reservierungstool",
+    "description": "Es wurde eine Geräte-Reservierungsplattform entwickelt, die eine zentrale Verwaltung und Ausleihe von Geräten ermöglicht. Nutzer:innen können sich registrieren, Geräte reservieren und ihre aktuellen Ausleihen inklusive Fälligkeitsdatum jederzeit einsehen. Automatische E-Mail-Benachrichtigungen erinnern rechtzeitig an bevorstehende Rückgaben. Für die Verwaltung stehen Funktionen zur Verfügung, um Geräte als abgeholt, nicht abgeholt oder überfällig zu kennzeichnen.",
+    "tech": ["Java", "Spring Boot", "JSF", "JPA", "JUnit", "Bootstrap CSS", "PrimeFaces", "Maven"],
+    "git": "https://github.com/ChrisKelter/lab-equipment-reservation",
+    "category": "Bachelorprojekt"
+  }
+]

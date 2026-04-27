@@ -23,6 +23,9 @@
       <a mat-list-item (click)="scrollMobile(skills)">
         <span i18n="@@skills">Kenntnisse</span>
       </a>
+      <a mat-list-item (click)="scrollMobile(projects)">
+        <span i18n="@@projects">Projekte</span>
+      </a>
       <a mat-list-item (click)="scrollMobile(interests)">
         <span i18n="@@interests">Interessen</span>
       </a>
@@ -47,6 +50,7 @@
           <li (click)="scroll(experience)" i18n="@@experience">Erfahrung</li>
           <li (click)="scroll(education)" i18n="@@education">Ausbildung</li>
           <li (click)="scroll(skills)" i18n="@@skills">Kenntnisse</li>
+          <li (click)="scroll(projects)" i18n="@@projects">Projekte</li>
           <li (click)="scroll(interests)" i18n="@@interests">Interessen</li>
           <li (click)="scroll(contact)" i18n="@@contact">Kontakt</li>
           <li>
@@ -77,6 +81,10 @@
       <section #skills class="scroll-fix">
         <app-skills></app-skills>
       </section>
+
+    <section #projects class="scroll-fix">
+        <app-projects></app-projects>
+    </section>
 
       <section #interests class="scroll-fix">
         <app-interests></app-interests>

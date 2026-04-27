@@ -1,0 +1,105 @@
+[
+  {
+    "title": "Meta-metamodel Independent Model Transformations",
+    "description": "A flexible framework for transforming models in XML format (e.g. UML or building models) was developed. Processing is model- and metamodel-based and independent of the underlying meta-metamodel. The actual transformations are controlled by user-defined rules written in a specially developed domain-specific language (DSL). This allows model transformations to be customized and easily extended.",
+    "tech": ["Java", "Spring Boot", "Xtext", "Xtend", "Angular", "PrimeNG", "Language Server", "DSL", "TypeScript"],
+    "git": "https://git.uibk.ac.at/csav4731/ma-thesis",
+    "category": "Master's thesis"
+  },
+  {
+    "title": "WebIDE for Sphero BOLT",
+    "description": "This project develops a fully-featured web IDE for programming the Sphero BOLT, running entirely in the browser without installation. Programs can be created using block-based programming or Python, with a Python interpreter executed in the browser via WebAssembly. In addition to basic control, the environment supports event-based functions such as AI classification, AprilTag detection, and collision handling. This results in a flexible and accessible platform for educational robotics programming.",
+    "tech": ["Angular", "WebAssembly", "Python", "Pyodide", "OpenCV", "Tensorflow", "TypeScript", "JavaScript", "PrimeNG", "AI", "Docker", "CI/CD"],
+    "git": "https://git.uibk.ac.at/informatik/stair/sphero-blockly",
+    "demo": "https://stair-lab.uibk.ac.at/sphero-blockly/",
+    "category": "Research project"
+  },
+  {
+    "title": "STAIR Lab Minibot",
+    "description": "This project developed a comprehensive framework for integrating robotics and AI into education. A web-based programming environment allows students from secondary school to university level to work with robotics and AI applications. The platform is based on ROS and block-based programming and provides an abstracted API so that programming is possible without ROS knowledge. An integrated traffic sign recognition workshop introduces AI classification models and leads to the development of an autonomous robot. A virtualization environment enables testing and development without physical robots.",
+    "tech": ["ROS", "Python", "Angular", "PrimeNG", "OpenCV", "Tensorflow", "RVIZ", "Flask", "Docker", "CI/CD", "JavaScript", "TypeScript", "Gazebo"],
+    "git": "https://git.uibk.ac.at/informatik/stair/ros-blockly",
+    "demo": "https://stair-lab.uibk.ac.at/ros-blockly/",
+    "category": "Research project"
+  },
+  {
+    "title": "Queue Ticket System",
+    "description": "A modular appointment booking system was developed that enables location-independent booking via a web portal. Additionally, queue tickets can be obtained on-site either as printed tickets or digitally on a smartphone. Users are automatically notified via web app and on-site displays. All components are securely connected and the system can be flexibly extended with additional modules.",
+    "tech": ["C#", ".NET", "Entity Framework", "Angular", "PrimeNG", "SignalR", "Python", "Raspberry Pi", "Linux", "Docker", "CI/CD"],
+    "git": "https://github.com/ChrisKelter/Waiting-Mark-Donator",
+    "category": "Master project with industry partner"
+  },
+  {
+    "title": "Metroidvania: Jump and Run",
+    "description": "This project is a modular jump-and-run game with a flexible engine architecture. It supports multiple levels via a tilemap parser as well as animations, sprite management, and simple physics for movement and collision handling. The game structure is based on an entity-component system that allows flexible extension of game objects. A dynamic camera follows the player through levels, while debug tools support development. The system is complemented by a combat system and save/load functionality.",
+    "tech": ["C++", "SFML", "LdtkLoader", "CMake"],
+    "git": "https://github.com/ChrisKelter/Metroidvania",
+    "category": "Master project"
+  },
+  {
+    "title": "Driving School Comparison Portal",
+    "description": "This project is a modern comparison platform for driving schools that helps users quickly find the right school. Through an intuitive, responsive interface, driving schools can be filtered and compared by location, price, and license type. A key feature is a structured comparison view that transparently presents costs, offerings, and training categories. User reviews provide real experiences and support decision-making. An integrated map view shows all nearby driving schools for easy orientation and selection.",
+    "tech": ["C#", ".NET", "Entity Framework", "NUnit", "Selenium", "Angular", "PrimeNG", "Trello", "CI/CD", "JWT"],
+    "git": "https://github.com/ChrisKelter/DrivingSchoolComparisonPlatform",
+    "category": "Master project"
+  },
+  {
+    "title": "Bitcoin Price Prediction",
+    "description": "This project analyzes the influence of public figures such as Elon Musk on the price of Bitcoin. Relevant tweets are collected and classified as positive or negative using sentiment analysis. The goal is to investigate whether there is a correlation between tweet sentiment and market movements, such as positive tweets leading to price increases and negative tweets to declines.",
+    "tech": ["Python", "Jupyter Notebooks", "Pandas", "Scikit-learn Linear Regression", "VADER Sentiment Analyzer"],
+    "git": "https://github.com/ChrisKelter/BitcoinPricePrediction",
+    "category": "Master project"
+  },
+  {
+    "title": "Central Authentication and Authorization Service",
+    "description": "This bachelor's thesis involves the development of a Single Sign-On (SSO) service based on the OpenID Connect standard, providing centralized and secure authentication for multiple applications. It includes a user management system and Windows authentication support for seamless integration into existing infrastructures. Role-based authorization enables flexible permission control, with system-wide synchronization ensuring consistency across applications. The system was extensively tested, including integration, system, and performance testing.",
+    "tech": [".NET", "Entity Framework", "REST", "Swagger UI", "NUnit", "Angular", "Material UI", "JWT", "Selenium", "Appium", "k6", "CI/CD"],
+    "git": "https://github.com/ChrisKelter/ba-thesis-zaa",
+    "category": "Bachelor thesis"
+  },
+  {
+    "title": "Scavenger Hunt WebApp",
+    "description": "The multi-user scavenger hunt web app enables real-time team-based gameplay. Users register in teams of three and must collaboratively find locations. QR code scans confirm checkpoints and dynamically award points. Real-time synchronization via WebSockets ensures all team members always see the current game state, creating an interactive and competitive experience.",
+    "tech": [".NET", "Entity Framework", "REST", "NUnit", "Angular", "PrimeNG", "JWT", "SignalR", "Docker", "CI/CD"],
+    "git": "https://github.com/ChrisKelter/ScavengerHunt",
+    "demo": "https://tutorium.natwi-technik.at",
+    "category": "Student project (ÖH)"
+  },
+  {
+    "title": "Informatics Wiki",
+    "description": "A sharing platform was developed that enables computer science students to exchange knowledge and learning materials in a structured way. A virtual file system allows flexible management of folders and files. Access is secured via SAML authentication through the University of Innsbruck identity provider. A validation system ensures content quality before publication.",
+    "tech": ["Java", "Spring Boot", "JPA", "Angular", "TypeScript", "Material UI", "SAML"],
+    "git": "https://github.com/ChrisKelter/info-wiki",
+    "demo": "https://wiki.binaryibk.at",
+    "category": "Student project (ÖH)"
+  },
+  {
+    "title": "SuperChat",
+    "description": "An online chat platform for multi-user communication was developed, supporting both direct one-to-one messaging and chat rooms. Real-time communication is implemented using WebSockets, enabling instant message delivery. The architecture follows Domain-Driven Design (DDD), ensuring a modular structure with clear separation of concerns for user management, chat rooms, and message processing.",
+    "tech": ["Java", "Spring Boot", "GraphQL", "JWT", "Angular", "Material UI", "Karma", "JUnit", "Docker"],
+    "git": "https://github.com/ChrisKelter/Superchat",
+    "category": "Bachelor project"
+  },
+  {
+    "title": "PubQuiz WebApp",
+    "description": "A Virtual PubQuiz web app was developed to enable online quiz events during the COVID-19 pandemic. The platform supports multiple quiz sets and flexible question types such as single choice, multiple choice, open questions, and image-based questions. A key feature is fully automated answer evaluation, providing real-time results.",
+    "tech": ["Java", "Spring Boot", "JPA", "Angular", "Material UI", "Gradle"],
+    "git": "https://github.com/ChrisKelter/pubquiz",
+    "demo": "https://pubquiz.binaryibk.at",
+    "category": "Student project (ÖH)"
+  },
+  {
+    "title": "QuizTeam",
+    "description": "A multi-user quiz game was developed in which teams collaboratively solve questions from different categories. Players discuss and agree on answers while accumulating points together. The application includes a scoreboard for past games and a reverse game mode where users must infer the original question from a given answer.",
+    "tech": ["Java", "Spring Boot", "JSF", "JPA", "JUnit", "Selenium", "Vagrant", "Bootstrap CSS", "PrimeFaces", "Maven"],
+    "git": "https://github.com/ChrisKelter/quizteam",
+    "category": "Bachelor project"
+  },
+  {
+    "title": "Equipment Reservation System",
+    "description": "A device reservation platform was developed to manage equipment lending centrally. Users can register, reserve devices, and view their current loans including due dates. Automated email notifications remind users of upcoming returns. Administrative functions allow devices to be marked as collected, not collected, or overdue.",
+    "tech": ["Java", "Spring Boot", "JSF", "JPA", "JUnit", "Bootstrap CSS", "PrimeFaces", "Maven"],
+    "git": "https://github.com/ChrisKelter/lab-equipment-reservation",
+    "category": "Bachelor project"
+  }
+]
