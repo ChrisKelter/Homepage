@@ -17,7 +17,7 @@
   {
     "title": "STAIR Lab Minibot",
     "description": "This project developed a comprehensive framework for integrating robotics and AI into education. A web-based programming environment allows students from secondary school to university level to work with robotics and AI applications. The platform is based on ROS and block-based programming and provides an abstracted API so that programming is possible without ROS knowledge. An integrated traffic sign recognition workshop introduces AI classification models and leads to the development of an autonomous robot. A virtualization environment enables testing and development without physical robots.",
-    "tech": ["ROS", "Python", "Angular", "PrimeNG", "OpenCV", "Tensorflow", "RVIZ", "Flask", "Docker", "CI/CD", "JavaScript", "TypeScript", "Gazebo"],
+    "tech": ["Python", "C++", "ROS", "Angular", "PrimeNG", "OpenCV", "Tensorflow", "RVIZ", "Flask", "Docker", "CI/CD", "JavaScript", "TypeScript", "Gazebo"],
     "git": "https://git.uibk.ac.at/informatik/stair/ros-blockly",
     "demo": "https://stair-lab.uibk.ac.at/ros-blockly/",
     "category": "Research project"
@@ -37,7 +37,7 @@
     "category": "Master project"
   },
   {
-    "title": "Driving School Comparison Portal",
+    "title": "Driving School Comparison Platform",
     "description": "This project is a modern comparison platform for driving schools that helps users quickly find the right school. Through an intuitive, responsive interface, driving schools can be filtered and compared by location, price, and license type. A key feature is a structured comparison view that transparently presents costs, offerings, and training categories. User reviews provide real experiences and support decision-making. An integrated map view shows all nearby driving schools for easy orientation and selection.",
     "tech": ["C#", ".NET", "Entity Framework", "NUnit", "Selenium", "Angular", "PrimeNG", "Trello", "CI/CD", "JWT"],
     "git": "https://github.com/ChrisKelter/DrivingSchoolComparisonPlatform",
@@ -53,25 +53,25 @@
   {
     "title": "Central Authentication and Authorization Service",
     "description": "This bachelor's thesis involves the development of a Single Sign-On (SSO) service based on the OpenID Connect standard, providing centralized and secure authentication for multiple applications. It includes a user management system and Windows authentication support for seamless integration into existing infrastructures. Role-based authorization enables flexible permission control, with system-wide synchronization ensuring consistency across applications. The system was extensively tested, including integration, system, and performance testing.",
-    "tech": [".NET", "Entity Framework", "REST", "Swagger UI", "NUnit", "Angular", "Material UI", "JWT", "Selenium", "Appium", "k6", "CI/CD"],
+    "tech": ["C#",".NET", "Entity Framework", "REST", "Swagger UI", "NUnit", "Angular", "Material UI", "JWT", "Selenium", "Appium", "k6", "CI/CD"],
     "git": "https://github.com/ChrisKelter/ba-thesis-zaa",
     "category": "Bachelor thesis"
   },
   {
     "title": "Scavenger Hunt WebApp",
     "description": "The multi-user scavenger hunt web app enables real-time team-based gameplay. Users register in teams of three and must collaboratively find locations. QR code scans confirm checkpoints and dynamically award points. Real-time synchronization via WebSockets ensures all team members always see the current game state, creating an interactive and competitive experience.",
-    "tech": [".NET", "Entity Framework", "REST", "NUnit", "Angular", "PrimeNG", "JWT", "SignalR", "Docker", "CI/CD"],
+    "tech": ["C#",".NET", "Entity Framework", "REST", "NUnit", "Angular", "PrimeNG", "JWT", "SignalR", "Docker", "CI/CD"],
     "git": "https://github.com/ChrisKelter/ScavengerHunt",
     "demo": "https://tutorium.natwi-technik.at",
-    "category": "Student project (ÖH)"
+    "category": "ÖH project"
   },
   {
-    "title": "Informatics Wiki",
+    "title": "Computer Science Wiki",
     "description": "A sharing platform was developed that enables computer science students to exchange knowledge and learning materials in a structured way. A virtual file system allows flexible management of folders and files. Access is secured via SAML authentication through the University of Innsbruck identity provider. A validation system ensures content quality before publication.",
     "tech": ["Java", "Spring Boot", "JPA", "Angular", "TypeScript", "Material UI", "SAML"],
     "git": "https://github.com/ChrisKelter/info-wiki",
     "demo": "https://wiki.binaryibk.at",
-    "category": "Student project (ÖH)"
+    "category": "ÖH project"
   },
   {
     "title": "SuperChat",
@@ -86,7 +86,7 @@
     "tech": ["Java", "Spring Boot", "JPA", "Angular", "Material UI", "Gradle"],
     "git": "https://github.com/ChrisKelter/pubquiz",
     "demo": "https://pubquiz.binaryibk.at",
-    "category": "Student project (ÖH)"
+    "category": "ÖH project"
   },
   {
     "title": "QuizTeam",

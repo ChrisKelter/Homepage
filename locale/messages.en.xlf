@@ -134,10 +134,12 @@
         <source> Technik begeistert mich seit meiner Kindheit, von der HTL Anichstraße mit Schwerpunkt Elektronik und Technische Informatik bis zum Informatikstudium an der Universität Innsbruck. Programmieren und das Lösen komplexer Probleme sind meine Leidenschaft. <ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> Neben dem Studium engagierte ich mich als Vorsitzender der Studienvertretung für über 1.000 Studierende und sammelte Berufserfahrung als Verkäufer, studentischer Mitarbeiter, Lektor und stellvertretender Wirtschaftsreferent der ÖH Innsbruck. <ph id="2" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/><ph id="3" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> In meiner Freizeit bin ich sportlich aktiv, beim Fitness, Radfahren, Yoga, Spinning oder Schwimmen. Ich bin technikbegeistert, kommunikativ und zielstrebig, immer mit dem Wunsch, Dinge zu verstehen und positiv zu gestalten. </source>
         <target>
           I have been fascinated by technology since childhood, from HTL Anichstraße, where I focused on electronics and technical computer science, to studying computer science at the University of Innsbruck. Programming and solving complex problems are my passion.
-          <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+          <ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>
+          <ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>
           In addition to my studies, I was involved as chairman of the student council for over 1,000 students and gained professional experience as a salesperson, student assistant, lecturer, and deputy economic advisor at the ÖH Innsbruck.
-          <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          In my free time, I enjoy sports—fitness, cycling, yoga, spinning, and swimming. I am enthusiastic about technology, communicative, and determined—always with the desire to understand things and shape them positively.
+          <ph id="2" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>
+          <ph id="3" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>
+          In my free time, I enjoy sports, fitness, cycling, yoga, spinning, and swimming. I am enthusiastic about technology, communicative, and determined, always with the desire to understand things and shape them positively.
         </target>
       </segment>
     </unit>

@@ -17,7 +17,7 @@
   {
     "title": "STAIR Lab Minibot",
     "description": "Im Projekt wurde ein umfassendes Framework zur Integration von Robotik und KI im Bildungsbereich entwickelt. Über eine webbasierte Programmierumgebung können Schüler:innen von der Unterstufe bis zur Universität mit Robotik- und KI-Anwendungen arbeiten. Die Plattform basiert auf ROS und blockbasierter Programmierung und bietet eine abstrahierte API, sodass auch ohne ROS-Kenntnisse programmiert werden kann. Ein integrierter Schilderkennungs-Workshop vermittelt Grundlagen von KI-Klassifikationsmodellen und führt zur Entwicklung eines autonom fahrenden Roboters. Eine Virtualisierungsumgebung ermöglicht zusätzlich das Testen und Entwickeln ohne physischen Roboter.",
-    "tech": ["ROS", "Python", "Angular","PrimeNG","OpenCV", "Tensorflow", "RVIZ", "Flask", "Docker", "CI/CD", "JavaScript", "TypeScript", "Gazebo"],
+    "tech": ["Python", "C++", "ROS",  "Angular","PrimeNG","OpenCV", "Tensorflow", "RVIZ", "Flask", "Docker", "CI/CD", "JavaScript", "TypeScript", "Gazebo"],
     "git": "https://git.uibk.ac.at/informatik/stair/ros-blockly",
     "demo": "https://stair-lab.uibk.ac.at/ros-blockly/",
     "category": "Forschungsprojekt"
@@ -53,14 +53,14 @@
   {
     "title": "Zentraler Authentifizierungs- und Authorisierungsservice",
     "description": "Die Bachelorarbeit umfasst die Entwicklung eines Single-Sign-On (SSO) Services auf Basis des OpenID-Connect-Standards, der eine zentrale und sichere Authentifizierung für unterschiedliche Anwendungen ermöglicht. Ergänzt wird das System durch eine integrierte Benutzerverwaltung sowie die Unterstützung von Windows-Authentifizierung, wodurch eine nahtlose Einbindung in bestehende IT-Infrastrukturen gewährleistet wird. Ein zentrales Element ist die Rechtezuweisung, die eine flexible Steuerung von Benutzerberechtigungen ermöglicht. Diese Berechtigungen werden systemübergreifend synchronisiert, sodass Änderungen in konsistent in allen angebundenen Anwendungen verfügbar sind.Das System wurde umfassend getestet, einschließlich funktionaler Integrationtests, Systemtests und intensiver Performancetests, um Stabilität, Skalierbarkeit und Zuverlässigkeit auch unter hoher Last sicherzustellen.",
-    "tech": [".NET", "Entity Framework", "REST", "Swagger UI", "NUnit", "Angular", "Material UI", "JWT", "Selenium", "Appium", "k6", "CI/CD"],
+    "tech": ["C#",".NET", "Entity Framework", "REST", "Swagger UI", "NUnit", "Angular", "Material UI", "JWT", "Selenium", "Appium", "k6", "CI/CD"],
     "git": "https://github.com/ChrisKelter/ba-thesis-zaa",
     "category": "Bachelorarbeit"
   },
   {
     "title": "Schnitzeljagd WebApp",
     "description": "Die Multi-User-Schnitzeljagd WebApp ermöglicht teambasierte Spiele in Echtzeit. Nutzer:innen registrieren sich in 3er-Teams und müssen gemeinsam Orte finden. Über QR-Code-Scans werden Stationen bestätigt und Punkte dynamisch vergeben. Eine Echtzeit-Synchronisation via WebSockets sorgt dafür, dass alle Teammitglieder stets den aktuellen Spielstand sehen. Dadurch entsteht ein interaktives, kooperatives Spielerlebnis mit direkter Rückmeldung und Wettbewerbskomponente.",
-    "tech": [".NET", "Entity Framework", "REST", "NUnit", "Angular", "PrimeNG", "JWT", "SignalR", "Docker", "CI/CD"],
+    "tech": ["C#",".NET", "Entity Framework", "REST", "NUnit", "Angular", "PrimeNG", "JWT", "SignalR", "Docker", "CI/CD"],
     "git": "https://github.com/ChrisKelter/ScavengerHunt",
     "demo": "https://tutorium.natwi-technik.at",
     "category": "ÖH Projekt"
