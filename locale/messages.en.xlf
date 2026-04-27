@@ -1,187 +1,181 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="de" datatype="plaintext" original="ng2.template">
-    <body>
-      <trans-unit id="experience" datatype="html">
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="de">
+  <file id="ngi18n" original="ng.template">
+    <unit id="experience">
+      <notes>
+        <note category="location">src/app/app.component.html:18,20</note>
+        <note category="location">src/app/app.component.html:50,51</note>
+        <note category="location">src/app/content/experience/experience.component.html:1,2</note>
+      </notes>
+      <segment>
         <source>Erfahrung</source>
         <target>Experience</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">36</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/experience/experience.component.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="education" datatype="html">
+      </segment>
+    </unit>
+    <unit id="education">
+      <notes>
+        <note category="location">src/app/app.component.html:21,23</note>
+        <note category="location">src/app/app.component.html:51,52</note>
+        <note category="location">src/app/content/education/education.component.html:1,2</note>
+      </notes>
+      <segment>
         <source>Ausbildung</source>
         <target>Education</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">37</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/education/education.component.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="skills" datatype="html">
+      </segment>
+    </unit>
+    <unit id="skills">
+      <notes>
+        <note category="location">src/app/app.component.html:24,26</note>
+        <note category="location">src/app/app.component.html:52,53</note>
+        <note category="location">src/app/content/skills/skills.component.html:1,2</note>
+      </notes>
+      <segment>
         <source>Kenntnisse</source>
         <target>Skills</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/skills/skills.component.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="interests" datatype="html">
+      </segment>
+    </unit>
+    <unit id="projects">
+      <notes>
+        <note category="location">src/app/app.component.html:27,29</note>
+        <note category="location">src/app/app.component.html:53,54</note>
+        <note category="location">src/app/content/projects/projects.component.html:1,2</note>
+      </notes>
+      <segment>
+        <source>Projekte</source>
+        <target>Projects</target>
+      </segment>
+    </unit>
+    <unit id="interests">
+      <notes>
+        <note category="location">src/app/app.component.html:30,32</note>
+        <note category="location">src/app/app.component.html:54,55</note>
+        <note category="location">src/app/content/interests/interests.component.html:1,2</note>
+      </notes>
+      <segment>
         <source>Interessen</source>
         <target>Interests</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">39</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/interests/interests.component.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="contact" datatype="html">
+      </segment>
+    </unit>
+    <unit id="contact">
+      <notes>
+        <note category="location">src/app/app.component.html:33,35</note>
+        <note category="location">src/app/app.component.html:55,57</note>
+        <note category="location">src/app/content/contact/contact.component.html:1,2</note>
+      </notes>
+      <segment>
         <source>Kontakt</source>
         <target>Contact</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">40</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="download_cv" datatype="html">
+      </segment>
+    </unit>
+    <unit id="download_cv">
+      <notes>
+        <note category="location">src/app/app.component.html:100,102</note>
+      </notes>
+      <segment>
         <source>CV herunterladen</source>
         <target>download CV</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">73</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="phone" datatype="html">
+      </segment>
+    </unit>
+    <unit id="phone">
+      <notes>
+        <note category="location">src/app/content/about/about.component.html:14,15</note>
+        <note category="location">src/app/content/contact/contact.component.html:12,13</note>
+      </notes>
+      <segment>
         <source>Telefon</source>
         <target>Phone</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/about/about.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
-          <context context-type="linenumber">12</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="email" datatype="html">
+      </segment>
+    </unit>
+    <unit id="email">
+      <notes>
+        <note category="location">src/app/content/about/about.component.html:20,21</note>
+        <note category="location">src/app/content/contact/contact.component.html:18,19</note>
+        <note category="location">src/app/content/contact/contact.component.html:48,49</note>
+      </notes>
+      <segment>
         <source>Email</source>
         <target>Email</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/about/about.component.html</context>
-          <context context-type="linenumber">20</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
-          <context context-type="linenumber">50</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="address" datatype="html">
+      </segment>
+    </unit>
+    <unit id="address">
+      <notes>
+        <note category="location">src/app/content/about/about.component.html:26,27</note>
+        <note category="location">src/app/content/contact/contact.component.html:24,25</note>
+      </notes>
+      <segment>
         <source>Adresse</source>
         <target>Address</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/about/about.component.html</context>
-          <context context-type="linenumber">26</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
-          <context context-type="linenumber">24</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="birthday" datatype="html">
+      </segment>
+    </unit>
+    <unit id="birthday">
+      <notes>
+        <note category="location">src/app/content/about/about.component.html:33,34</note>
+        <note category="location">src/app/content/contact/contact.component.html:31,32</note>
+      </notes>
+      <segment>
         <source>Geburtsdatum</source>
         <target>Date of birth</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/about/about.component.html</context>
-          <context context-type="linenumber">35</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
-          <context context-type="linenumber">33</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="about_text_intro" datatype="html">
+      </segment>
+    </unit>
+    <unit id="about_text_intro">
+      <notes>
+        <note category="location">src/app/content/about/about.component.html:64,66</note>
+      </notes>
+      <segment>
         <source>Hallo, ich bin Christopher</source>
         <target>Hello, I am Christopher</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/about/about.component.html</context>
-          <context context-type="linenumber">66</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="about_text_main" datatype="html">
-        <source>
-          Ich bin seit meiner Jugend technikbegeistert und durch meinen Abschluss an der
-          HTL Anichstraße habe ich meine Leidenschaft für die Informatik entdeckt.
-          Daher studiere ich seit 2017 Informatik an der Universität Innsbruck. Derzeit befinde ich mich
-          im Masterstudium Software Engineering mit der Vertiefung Software Security Engineering.
-          <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-          Neben meinem Studium engagiere ich mich ehrenamtlich als Studienvertreter, wo ich seit
-          Juli 2021 Vorsitzender der Fakultätsstudienvertretung
-          NatWi-Technik bin und daher alle Studierenden der Fakultäten für Biologie sowie Mathematik, Informatik und Physik vertrete.
-          Außerdem gehe ich aufgrund meiner früheren Vereinstätigkeit gerne Schwimmen.
-        </source>
+      </segment>
+    </unit>
+    <unit id="about_text_main">
+      <notes>
+        <note category="location">src/app/content/about/about.component.html:67,72</note>
+      </notes>
+      <segment>
+        <source> Technik begeistert mich seit meiner Kindheit, von der HTL Anichstraße mit Schwerpunkt Elektronik und Technische Informatik bis zum Informatikstudium an der Universität Innsbruck. Programmieren und das Lösen komplexer Probleme sind meine Leidenschaft. <ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> Neben dem Studium engagierte ich mich als Vorsitzender der Studienvertretung für über 1.000 Studierende und sammelte Berufserfahrung als Verkäufer, studentischer Mitarbeiter, Lektor und stellvertretender Wirtschaftsreferent der ÖH Innsbruck. <ph id="2" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/><ph id="3" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/> In meiner Freizeit bin ich sportlich aktiv, beim Fitness, Radfahren, Yoga, Spinning oder Schwimmen. Ich bin technikbegeistert, kommunikativ und zielstrebig, immer mit dem Wunsch, Dinge zu verstehen und positiv zu gestalten. </source>
         <target>
-          I have been fascinated by technology since childhood—from HTL Anichstraße, where I focused on electronics and technical computer science, to studying computer science at the University of Innsbruck. Programming and solving complex problems are my passion.
+          I have been fascinated by technology since childhood, from HTL Anichstraße, where I focused on electronics and technical computer science, to studying computer science at the University of Innsbruck. Programming and solving complex problems are my passion.
           <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
           In addition to my studies, I was involved as chairman of the student council for over 1,000 students and gained professional experience as a salesperson, student assistant, lecturer, and deputy economic advisor at the ÖH Innsbruck.
           <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
           In my free time, I enjoy sports—fitness, cycling, yoga, spinning, and swimming. I am enthusiastic about technology, communicative, and determined—always with the desire to understand things and shape them positively.
         </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/about/about.component.html</context>
-          <context context-type="linenumber">68</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="form_name" datatype="html">
+      </segment>
+    </unit>
+    <unit id="form_name">
+      <notes>
+        <note category="location">src/app/content/contact/contact.component.html:43,44</note>
+      </notes>
+      <segment>
         <source>Name</source>
         <target>Name</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
-          <context context-type="linenumber">45</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="form_subject" datatype="html">
+      </segment>
+    </unit>
+    <unit id="form_subject">
+      <notes>
+        <note category="location">src/app/content/contact/contact.component.html:54,55</note>
+      </notes>
+      <segment>
         <source>Betreff</source>
         <target>Subject</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
-          <context context-type="linenumber">57</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="form_message" datatype="html">
+      </segment>
+    </unit>
+    <unit id="form_message">
+      <notes>
+        <note category="location">src/app/content/contact/contact.component.html:59,60</note>
+      </notes>
+      <segment>
         <source>Nachricht</source>
         <target>Message</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
-          <context context-type="linenumber">62</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="form_send" datatype="html">
+      </segment>
+    </unit>
+    <unit id="form_send">
+      <notes>
+        <note category="location">src/app/content/contact/contact.component.html:66,68</note>
+      </notes>
+      <segment>
         <source>Absenden</source>
         <target>Send</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/content/contact/contact.component.html</context>
-          <context context-type="linenumber">65</context>
-        </context-group>
-      </trans-unit>
-    </body>
+      </segment>
+    </unit>
   </file>
 </xliff>
