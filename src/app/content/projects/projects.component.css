@@ -37,120 +37,6 @@ mat-list-item a {
     color: var(--hp-primary);
 }
 
-.subtitle {
-    margin-top: 18px;
-    font-size: 17px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-}
-
-.content-form {
-    width: 50%;
-    padding-top: 100px;
-}
-
-.content-form-container {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.name-email {
-    width: 100%;
-}
-
-.name-email mat-form-field {
-    width: calc(50% - 10px);
-}
-
-.name-email mat-form-field:first-child {
-    margin-right: 20px;
-}
-
-.mat-mdc-form-field {
-    width: 100%;
-}
-
-::ng-deep .mat-form-field-label, input, textarea {
-    padding-left: 5px!important;
-}
-
-textarea {
-    resize: none!important;
-}
-
-.contact-captcha {
-    margin-bottom: 10px;
-}
-
-.contact-button {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-::ng-deep .mat-form-field-flex {
-    background-color: #ffffff!important;
-    padding-top: 3px!important;
-}
-
-@media only screen and (max-width: 768px) {
-    .content {
-        display: block;
-        padding-top: 20px;
-    }
-
-    .content-form, .content-text {
-        width: 100%;
-    }
-
-    .content-form {
-        padding-top: 0;
-        padding-bottom: 20px;
-    }
-
-    .content-text {
-        border-right: none;
-        padding-bottom: 20px;
-    }
-
-    .content-text-container {
-        margin-left: 20px;
-    }
-
-    .content-text-container mat-list {
-        margin-top: 10px;
-        padding-bottom: 20px;
-    }
-
-    .title {
-        margin-top: 0;
-        padding-top: 20px;
-    }
-}
-
-
-.projects-section {
-    padding: 4rem 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.section-header {
-    text-align: center;
-
-    h2 {
-        font-size: 2rem;
-        margin-bottom: 0.5rem;
-    }
-
-    p {
-        color: #666;
-    }
-}
-
-
-
-
-
 .projects-grid {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -205,4 +91,55 @@ mat-card-actions {
 
 .projects-paginator {
     background-color: #fff;
+}
+
+
+
+
+
+::ng-deep .mat-form-field-flex {
+    background-color: #ffffff!important;
+    padding-top: 3px!important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .content {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .content-text {
+        width: 100%;
+    }
+
+    .title {
+        margin-top: 0;
+        padding-top: 20px;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+.projects-section {
+    padding: 4rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-header {
+    text-align: center;
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        color: #666;
+    }
 }
